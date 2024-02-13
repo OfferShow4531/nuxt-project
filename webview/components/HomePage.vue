@@ -143,17 +143,17 @@ img{
 }
 
 .card {
-  /* Ваш стиль карты */
-  transition: transform 0.3s ease-in-out; /* Анимация трансформации */
+
+  transition: transform 0.3s ease-in-out;
 }
 
 .card:active {
-  transform: scale(0.9); /* Увеличиваем размер карты при начале перетаскивания */
+  transform: scale(0.9);
 }
 
 .card.dragging {
-  transform: scale(0.9); /* Увеличиваем размер карты при начале перетаскивания */
-  transition: transform 0.3s ease-in-out; /* Плавный переход размера */
+  transform: scale(0.9);
+  transition: transform 0.3s ease-in-out;
 }
 
 .card:hover{
