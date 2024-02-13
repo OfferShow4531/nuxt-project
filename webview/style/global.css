@@ -1,0 +1,35 @@
+*{
+  box-sizing: border-box;
+  user-select: none;
+  -webkit-overflow-scrolling: touch;
+  -webkit-user-select: auto;
+}
+
+div.main{
+  padding: 40px;
+}
+
+div.main h1{
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+div.main .row-split{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 50px;
+}
+
+div.main img{
+  width: 400px;
+  height: 300px;
+}
+
+div.main .userInfo p{
+  font-size: 18px;
+  font-weight: 600;
+}
+
